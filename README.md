@@ -9,7 +9,6 @@ Spinwheel should include the following:
 * Winner picked at random
 
 Some example starter code:
-
-https://codepen.io/deab/pen/gObXawr
-https://github.com/zarocknz/javascript-winwheel
-https://code.sololearn.com/WD8GprR5hozY/#html
+* https://codepen.io/deab/pen/gObXawr
+* https://github.com/zarocknz/javascript-winwheel
+* https://code.sololearn.com/WD8GprR5hozY/#html
