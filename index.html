@@ -39,12 +39,12 @@
                 oldpick = [],
                 color = d3.scale.category20c();
         var data = [
-            {"username": "Jenny Frondabloc"},
+            {"username": "Xi Tuna iX"},
             {"username": "Braf Zachland"},
             {"username": "Laura Vanderbooben"},
-            {"username": "Roy Rogers McFreely"},
-            {"username": "Chex LeMeneux"},
-            {"username": "François Dubonais"},
+            {"username": "Jef_M"},
+            {"username": "Frakkles"},
+            {"username": "ZyronJGames"},
             {"username": "chase1263070"},
             {"username": "Kittspresso"}
         ];
@@ -101,7 +101,7 @@
                 container.on("click", null);
                 return;
             }
-            var ps = 360 / data.length, //45
+            var ps = 360 / data.length,
                     rng = Math.floor((Math.random() * 5760) + 360);
 
             rotation = (Math.round(rng / ps) * ps);
@@ -117,7 +117,7 @@
             }
             rotation += 90 - Math.round(ps / 2);
             vis.transition()
-                    .duration(15000)
+                    .duration(10000)
                     .attrTween("transform", rotTween)
                     .each("end", function () {
                         oldrotation = rotation;
